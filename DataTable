@@ -1,0 +1,58 @@
+DataTable
+
+
+SendGrid : https://datatables.net/
+
+Reference : https://datatables.net/examples/
+
+Add button in row : https://datatables.net/examples/server_side/row_details.html
+
+Add scroll bar: https://datatables.net/examples/api/show_hide.html
+
+Search : https://datatables.net/examples/api/regex.html
+
+Add / Edit / delete data : http://www.dottedi.biz/demo/code/public/datatables1/index.php
+
+
+Delete multiple : http://stackoverflow.com/questions/19547222/delete-multiple-selected-datatable-rows-with-one-click
+
+https://datatables.net/reference/api/rows().remove()
+
+
+Edit : http://www.codeproject.com/Tips/844403/jQuery-Datatables-For-Beginners
+
+i18n : http://legacy.datatables.net/usage/i18n
+
+Localizations
+
+$('.dataTables').DataTable({
+    "language": {
+        "sProcessing":     "Traitement en cours...",
+        "sSearch":         "Rechercher&nbsp;:",
+        "sLengthMenu":     "Afficher _MENU_ &eacute;l&eacute;ments",
+        "sInfo":           "Affichage de l'&eacute;l&eacute;ment _START_ &agrave; _END_ sur _TOTAL_ &eacute;l&eacute;ments",
+        "sInfoEmpty":      "Affichage de l'&eacute;l&eacute;ment 0 &agrave; 0 sur 0 &eacute;l&eacute;ment",
+        "sInfoFiltered":   "(filtr&eacute; de _MAX_ &eacute;l&eacute;ments au total)",
+        "sInfoPostFix":    "",
+        "sLoadingRecords": "Chargement en cours...",
+        "sZeroRecords":    "Aucun &eacute;l&eacute;ment &agrave; afficher",
+        "sEmptyTable":     "Aucune donn&eacute;e disponible dans le tableau",
+        "oPaginate": {
+            "sFirst":      "Premier",
+            "sPrevious":   "Pr&eacute;c&eacute;dent",
+            "sNext":       "Suivant",
+            "sLast":       "Dernier"
+        },
+        "oAria": {
+            "sSortAscending":  ": activer pour trier la colonne par ordre croissant",
+            "sSortDescending": ": activer pour trier la colonne par ordre d&eacute;croissant"
+        },
+        "select": {
+                "rows": {
+                    "_": "%d lignes sélectionnées",
+                    "0": "Aucune ligne sélectionnée",
+                    "1": "1 ligne sélectionnée"
+                } 
+        }
+    }
+});
